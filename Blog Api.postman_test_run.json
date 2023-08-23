@@ -1,0 +1,216 @@
+{
+	"id": "b44f309c-5e6e-46ee-99e4-e66cdea13902",
+	"name": "Blog Api",
+	"timestamp": "2023-08-23T09:55:54.176Z",
+	"collection_id": "0-10832a87-bacb-43a9-93da-f837c0ecfa04",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "6e6217c4-8fb6-418a-969b-4d5993cf1bb6",
+			"name": "GET req",
+			"url": "http://127.0.0.1:8000/api/v1/posts/",
+			"time": 37,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				37
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "db10b03a-82bf-4972-8864-340774dcb937",
+			"name": "POST req error",
+			"url": "http://127.0.0.1:8000/api/v1/posts/",
+			"time": 5,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "94f6e233-55cf-4441-9cee-0ecbb63f190c",
+			"name": "POST req",
+			"url": "http://127.0.0.1:8000/api/v1/posts/",
+			"time": 487,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				487
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6150cf71-cb3d-47c1-9723-f320eb87c550",
+			"name": "PUT req error",
+			"url": "http://127.0.0.1:8000/api/v1/posts/10/",
+			"time": 5,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3f858ac2-2a24-43ce-8551-9a49f50f59b7",
+			"name": "PUT req error 2",
+			"url": "http://127.0.0.1:8000/api/v1/posts/10/",
+			"time": 501,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				501
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b76fce83-c618-4e1f-91eb-2962e081b93d",
+			"name": "PUT req",
+			"url": "http://127.0.0.1:8000/api/v1/posts/10/",
+			"time": 478,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				478
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "37d52f24-4990-4c67-b7da-4fd0443af1ca",
+			"name": "DELETE req",
+			"url": "http://127.0.0.1:8000/api/v1/posts/11/",
+			"time": 404,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				404
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4792035a-02b9-4f77-a9b6-8718961174ab",
+			"name": "DELETE req error",
+			"url": "http://127.0.0.1:8000/api/v1/posts/11/",
+			"time": 409,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				409
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "de2bf608-7674-4bb6-ae0c-bd353a2e6bba",
+			"name": "DELETE req error 2",
+			"url": "http://127.0.0.1:8000/api/v1/posts/11/",
+			"time": 410,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				410
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2736,
+	"collection": {
+		"requests": [
+			{
+				"id": "6e6217c4-8fb6-418a-969b-4d5993cf1bb6",
+				"method": "GET"
+			},
+			{
+				"id": "db10b03a-82bf-4972-8864-340774dcb937",
+				"method": "POST"
+			},
+			{
+				"id": "94f6e233-55cf-4441-9cee-0ecbb63f190c",
+				"method": "POST"
+			},
+			{
+				"id": "6150cf71-cb3d-47c1-9723-f320eb87c550",
+				"method": "PUT"
+			},
+			{
+				"id": "3f858ac2-2a24-43ce-8551-9a49f50f59b7",
+				"method": "PUT"
+			},
+			{
+				"id": "b76fce83-c618-4e1f-91eb-2962e081b93d",
+				"method": "PUT"
+			},
+			{
+				"id": "37d52f24-4990-4c67-b7da-4fd0443af1ca",
+				"method": "DELETE"
+			},
+			{
+				"id": "4792035a-02b9-4f77-a9b6-8718961174ab",
+				"method": "DELETE"
+			},
+			{
+				"id": "de2bf608-7674-4bb6-ae0c-bd353a2e6bba",
+				"method": "DELETE"
+			}
+		]
+	}
+}
